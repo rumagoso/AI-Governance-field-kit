@@ -1,0 +1,13 @@
+flowchart TD
+    A[Generation<br/>Marketing image, in-house SD fine-tune<br/>Label: embedded metadata] -->|survives| B[Internal asset library]
+    B -->|LOST — CMS strips metadata| C[Website CMS]
+    B -->|untested| D[Social scheduler]
+    B -->|survives, watermark visible| E[Partner shares<br/>co-marketing kit]
+    E -->|LOST — partner's own re-export tool<br/>crops watermark| F[Partner's social post]
+    D -->|LOST — most platforms strip on upload| G[Public social post]
+    C -->|survives, no further hops| H[End: website visitor]
+
+    style C fill:#f88
+    style F fill:#f88
+    style G fill:#f88
+    style H fill:#8f8

@@ -1,0 +1,26 @@
+<svg width="1000" height="1500" viewBox="0 0 1000 1500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1500" fill="#F4F1EA"/>
+
+  <!-- Title, letters placed individually so the M can sit off-baseline, tight kerning -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="110" font-weight="bold" fill="#1A1A1A">
+    <text x="40"  y="650">S</text>
+    <text x="120" y="650">E</text>
+    <text x="195" y="650">A</text>
+    <!-- the M: dropped slightly, rotated a couple degrees, off its baseline, but still tucked into the word -->
+    <text x="288" y="666" transform="rotate(4 340 640)" fill="#B5342E">M</text>
+    <text x="395" y="650">L</text>
+    <text x="460" y="650">E</text>
+    <text x="535" y="650">S</text>
+    <text x="610" y="650">S</text>
+  </g>
+
+  <!-- faint baseline to make the M's drop legible as a deliberate misalignment, not a rendering error -->
+  <line x1="40" y1="660" x2="700" y2="660" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.25"/>
+
+  <!-- Subtitle -->
+  <text x="40" y="760" font-family="Georgia, serif" font-size="34" fill="#1A1A1A">AI Governance for the</text>
+  <text x="40" y="805" font-family="Georgia, serif" font-size="34" fill="#1A1A1A">Parts Nobody Owns</text>
+
+  <!-- Author -->
+  <text x="40" y="1400" font-family="Georgia, serif" font-size="30" fill="#1A1A1A">Rui Soares</text>
+</svg>
