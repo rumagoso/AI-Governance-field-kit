@@ -6,11 +6,11 @@ Steven Schwartz reviewed his own brief before filing it. He was qualified to pra
 
 ## Worked example
 
-**System:** AI-drafted contract summaries (LEGAL-AI-003)
-**Named reviewer:** T. Vieira, Senior Associate
-**Known failure mode:** Model occasionally invents a clause reference that reads as plausible but does not appear in the source document
-**Evidence reviewer was shown this failure mode:** Walked through two real examples flagged by QA, 9 June 2026, before this reviewer was assigned to the workflow
-**Last caught incident:** 3 July 2026 — reviewer flagged an invented indemnity clause reference before the summary went to the client
+**System:** AI-drafted marketing content for client campaigns
+**Named reviewer:** Tiago Vento, Head of Delivery
+**Known failure mode:** Model occasionally invents a statistic or client-adjacent fact that reads as plausible but isn't sourced anywhere in the brief
+**Evidence reviewer was shown this failure mode:** Walked through two real examples the CTO-as-a-service consultant had flagged in earlier drafts, 12 January 2027, before Tiago was made sole reviewer for this content type
+**Last caught incident:** 4 February 2027 — Tiago flagged an invented industry statistic in a client blog draft before it published
 
 That last field earning a real date is what makes this record worth more than a training certificate. A reviewer who can point to something they actually caught has demonstrated the competence this chapter is trying to verify. A reviewer with no entry there yet isn't necessarily failing, but the blank is worth knowing about before an incident makes it visible.
 

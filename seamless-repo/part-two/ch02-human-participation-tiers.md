@@ -6,11 +6,11 @@ The essay argued that a signature was never proof of comprehension, only of iden
 
 ## Worked example
 
-**System:** AI-drafted client risk memos (RISK-AI-009)
-**Tiers assigned:** Tier 2 (Bounded review) — senior analyst checks the memo's risk classification and headline figures against source data, explicitly does not re-derive the underlying model output. Also Tier 3 (Procedural sign-off) — a partner countersigns before the memo leaves the building, no independent check performed, no instance on record of a partner declining to sign
-**Note:** the bounded review is real and has caught two miscategorisations in the last year. The partner sign-off has never once been withheld. Worth knowing which of the two is actually doing the work.
+**System:** AI-drafted client proposals, used for most new business pitches
+**Tiers assigned:** Tier 2 (Bounded review) — Tiago Vento checks pricing, scope, and any specific commitments made to the client, explicitly does not re-read the proposal's full narrative sections. Also Tier 3 (Procedural sign-off) — Mariana Cabral signs before it goes to the client, no independent check on content, no instance on record of Mariana declining to sign once Tiago has approved it
+**Note:** Tiago's bounded review is real, he caught a proposal promising a delivery timeline Ondas couldn't actually meet, three weeks before this exercise. Mariana's sign-off has never once been withheld once Tiago's name is on it. Worth knowing which of the two is actually doing the work, and which one just looks like it is.
 
-Two tiers on one system, and the honest picture that produces, a real check that works, sitting next to a formality that looks identical to it on any org chart, is exactly the distinction "human oversight: yes" was hiding.
+Two tiers on one document type, and the honest picture that produces, a real check that works, sitting next to a formality that looks identical to it on any org chart, is exactly the distinction "human oversight: yes" was hiding.
 
 ## The tiers
 

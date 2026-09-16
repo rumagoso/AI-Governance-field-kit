@@ -8,12 +8,12 @@ The fix is not a longer policy. It's a form that cannot be marked complete with 
 
 ## Worked example
 
-**System:** Invoice-matching model (INV-AI-014), retired 12 Jan 2027
-**Trigger:** Vendor contract lapsed, not renewed — 12 Jan 2027
-**Data disposition:** Training data deleted, decision logs migrated to cold storage — confirmed by M. Duarte, Data Protection
-**Downstream dependents notified:** Finance Ops (14 Jan), Procurement (14 Jan), external auditor on record (16 Jan)
-**Inventory removal:** Confirmed off active register 20 Jan 2027
-**Open retention conflicts:** One — seven-year statutory retention on decision logs outstrips the vendor's data-deletion clause; being resolved by Legal, target 28 Feb 2027
+**System:** Client chatbot built for a former retail client, live since 2023
+**Trigger:** Discovered still running eight months after the client contract ended, found by the CTO-as-a-service consultant during a routine quarterly check — 14 Feb 2027
+**Data disposition:** Conversation logs (18 months' worth) deleted; chatbot's model access revoked — confirmed by Bruno Alves, the developer who'd originally built it
+**Downstream dependents notified:** None found, the former client's own team had also stopped using it, which was itself part of why nobody at Ondas noticed
+**Inventory removal:** Confirmed off Ondas's active register 20 Feb 2027, the same day it was added retroactively; it had never been listed as a live system at all
+**Open retention conflicts:** None identified, though nobody had checked whether the former client's own data-retention terms applied to logs Ondas was still holding, until this record forced the question
 
 Six lines, five minutes to fill honestly, and it already tells you more than most decommissions ever get documented: who confirmed what, who still owes an answer, and by when.
 
