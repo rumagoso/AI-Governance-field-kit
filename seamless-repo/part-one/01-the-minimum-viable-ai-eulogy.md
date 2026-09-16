@@ -79,3 +79,5 @@ Maybe someone should.
 ---
 
 *The practical version of this problem — a working decommissioning checklist, retention-conflict resolution steps, and an inventory offboarding template — is addressed in the field manual, Part Two, "Retiring a System Without Losing the Argument."*
+
+*See it filled in: Ondas Digital closes out an abandoned client chatbot in Chapter 1.*

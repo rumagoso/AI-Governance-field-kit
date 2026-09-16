@@ -36,7 +36,7 @@ The one party with something closer to an actual stake in the fiction is whoever
 
 Regulators sit awkwardly outside this pattern, and the piece should say so rather than paper over it. The entire architecture of human-oversight law — competence, training, authority to overrule the system — assumes the signature is, or can be made to be, genuine. Regulators are the one party who would plausibly prefer it real. What none of them has built yet is a way to find out, short of an incident, whether it is.
 
-## The narrower, honest ask
+## What the signature is being asked to carry
 
 Two comfortable answers don't survive contact with the argument above. Restoring comprehension by force of will is not available — the friction that used to produce it is gone for good, and nostalgia for it is not a policy. Training signatories harder is the other reflex, and it fails for a blunter reason: capability grows faster than any individual's capacity to audit it, no matter how well trained, in the time a sign-off actually takes.
 
@@ -54,3 +54,5 @@ Answering that honestly opens a second question, taken up later in this collecti
 ---
 
 *The practical companion here isn't a checklist for signing correctly, it's a classification: the field manual, Part Two, "Naming the Kind of Human Participation You Actually Have," introduces a Human Participation Tiers field for the AI inventory (five tiers, overlapping, not exclusive), so "human oversight: yes" stops covering everything from genuine evaluative review to a procedural click.*
+
+*See it filled in: Ondas Digital tags its own proposal sign-off process in Chapter 2.*

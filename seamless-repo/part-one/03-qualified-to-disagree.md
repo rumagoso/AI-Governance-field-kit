@@ -18,7 +18,7 @@ The AI Act's human oversight provisions are usually read as a presence requireme
 
 This is where most human oversight programmes quietly fail the requirement without anyone noticing. A firm assigns a senior associate to review AI-drafted work because seniority reads as competence on an org chart. Seniority in the underlying discipline is not the same thing as trained suspicion of a specific, novel failure mode. Nobody taught Schwartz to distrust a well-formatted citation, because until early 2023 there was no reason to.
 
-## The narrower ask
+## What competence actually requires
 
 The honest response is not more oversight, and not more senior reviewers. It is a specific, teachable competence: familiarity with how the particular AI system in use actually fails, not AI failure in the abstract, but the failure modes of this tool, in this workflow, doing this kind of work. That competence can be built. It requires naming, in writing, what a reviewer is actually being asked to catch, and confirming, before deployment rather than after an incident, that the person in the reviewing seat has been shown what that specific failure looks like.
 
@@ -27,3 +27,6 @@ Schwartz was qualified to practise law. He was not qualified to disagree with a 
 ---
 
 *The practical version of this problem, a short protocol for naming, per AI system, exactly what failure a reviewer is being asked to catch, and confirming they have been shown what it looks like before deployment, is addressed in the field manual, Part Two, "Naming What Your Reviewers Need to Know," competence being the part of oversight nobody thought to assign.*
+
+
+*See it filled in: Ondas Digital's Tiago Vento builds his own competence record in Chapter 3.*

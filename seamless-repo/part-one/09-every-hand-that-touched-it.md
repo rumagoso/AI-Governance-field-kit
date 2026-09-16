@@ -1,0 +1,32 @@
+# Every Hand That Touched It
+
+*A regulator in Beijing announced enforcement action against three platforms not for generating unlabelled content, but for a label that didn't survive the journey from generation to a user's screen, the part of the chain nobody in Brussels has yet been asked to own.*
+
+This is a smaller story than it sounds, and a more useful one. China's AI content-labelling regime, mandatory since September 2025, does not ask a service to mark its output once and be done with it. It asks every content-distribution service that subsequently touches the material, the platform that hosts it, the app that distributes it, to check whether a label is still present and add its own traceability information if it isn't. The enforcement action was not, on the public record, a story about deception. It was a story about a label that had to survive several hops through ordinary, unremarkable technical processes, and, on the evidence available, didn't.
+
+## A label built to be lost
+
+The mechanism repays study before judgment. China's rules specify two kinds of label: an explicit one, visible to a viewer, typically a watermark or on-screen notice; and an implicit one, embedded in file metadata, readable by machines further down the chain. Both are fragile in ways that are well understood, independent of this particular case. A screenshot can strip a watermark. A format conversion can strip metadata. Re-exporting through editing software can strip both. None of this requires anyone to be trying to cheat the rule. It is simply what tends to happen to files as they move, and the exact effect depends on how the label was implemented in the first place.
+
+Regulators evidently designed around this, which is presumably why the obligation does not end at the point of generation. Content-distribution services are required to check incoming material for labels and, where evidence suggests AI generation even if the original marker is missing, to attach their own notice before the content reaches a user. The law is not naive about how fragile its own labels can be. It is built around that fragility. Responsibility does not sit only with whoever made the content. It travels with the content, and re-attaches at every hand that receives it.
+
+## A different assumption, where the sun rises first
+
+On the other side of the world, the European Union's comparable rule takes a different shape, not because Brussels disagreed about the risk, but because it distributes the obligation differently. Article 50 of the AI Act is not a single, provider-only duty; it has several parts. Providers of generative systems must mark their output in a machine-readable format and make it detectable as artificial. Deployers carry separate duties on top of that: anyone deploying a deepfake must disclose it to the people encountering the content, and certain AI-generated text published on matters of public interest must be labelled unless it has gone through genuine human editorial review. Worth noting, too, that Article 50 was not yet in force when China's April enforcement happened; it applies from 2 August 2026, with a short grace period for the marking obligation on systems already on the market.
+
+Set the two regimes side by side and the sharper comparison is not that Europe stops at generation while China follows every file. It is that China's rules place an explicit, general re-verification duty on every downstream content-distribution service, a standing obligation to keep checking, while Article 50 spreads responsibility across providers and deployers at defined points without building the same general reattachment mechanism for everyone who happens to handle the file afterwards.
+
+## The question nobody has had to answer yet
+
+Nothing about the European approach is obviously wrong. Assigning duties to providers and deployers at known points in a system's use is simpler to audit than asking every distribution platform to run continuous label verification. But it has not yet faced the specific test China's regulator just ran in public: what happens when a label attached correctly at one point in the chain does not survive to the point a viewer actually sees it. Nothing in the public record says whether CapCut's own labelling would have satisfied Article 50's machine-readable and detectability requirements, that's a different, stricter bar than a visible watermark, but the underlying mechanism the case exposes, a label that degrades in transit through routine technical handling, is exactly the failure mode Article 50's provider-and-deployer structure has not yet been tested against.
+
+The honest question is not whether China's model is better; the compliance burden it places on every service in a distribution chain is real. It's whether attaching a label once, however correctly, is actually equivalent to disclosure when the label itself is, by design, as fragile as a watermark or a metadata field, or whether it's equivalent to disclosure only until the first re-upload, the first screenshot, the first ordinary thing an ordinary user does with a file.
+
+Nobody has had to answer that question in Brussels yet. Beijing's regulator ran into it in April, and the answer involved three services' worth of downstream handling nobody had been made responsible for checking.
+
+
+---
+
+*The practical version of this problem, a template for mapping every hop your own content takes after generation and naming who re-verifies the label at each one, is addressed in the field manual, Part Two, "Building Your Own Label Chain of Custody," one more part nobody owns, until someone is named to own it.*
+
+*See it filled in: Ondas Digital traces where its own campaign images lose their label, in Chapter 9.*
