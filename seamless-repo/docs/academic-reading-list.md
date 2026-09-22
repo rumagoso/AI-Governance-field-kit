@@ -51,8 +51,58 @@
   — Peer-reviewed; addresses who audits the auditors, relevant to the essay's "evidence rots faster than policy" argument about internal self-assessment decay.
 - *Making AI Compliance Evidence Machine-Readable.* (arXiv:2604.13767). https://arxiv.org/pdf/2604.13767
   — Proposes OSCAL (the NIST FedRAMP interchange format) as executable evidence infrastructure for AI Act/ISO 42001/NIST AI RMF compliance — a direct technical answer to the essay's "evidence rots faster than policy" problem, useful as a forward-looking citation.
-- U.S. Government Accountability Office (GAO), review of 23 federal agency AI inventories (2025–2026) — primary source, not academic literature, but the essay's cold open; cite as a GAO report rather than a paper. Worth locating the exact GAO report number before publication for a precise citation.
+- U.S. Government Accountability Office (GAO), *Artificial Intelligence: Agencies Have Begun Implementation but Need to Complete Key Requirements*, GAO-24-105980, 12 December 2023 — primary source, not academic literature, but the essay's cold open; citation confirmed and now appended inline in the essay itself.
+
+## 6. "The Board That Couldn't Say Yes Fast Enough" — the Authority Gap
+
+- European Union Agency for Cybersecurity (ENISA), *Cybersecurity in the Frontier AI Era*, July 2026 — primary regulatory source, not peer-reviewed academic literature, but the essay's sole anchor and the origin of the "Authority Gap" term itself, along with the report's median exfiltration-window and vulnerability-weaponisation-time figures. Also independently cites the Vercel/Context.ai breach used in "The Ghost in the Estate," and its CSIRT-capacity warnings reinforce the argument in Part Two, Chapter 4 (Merged Clock Table). Worth treating as this book's single most load-bearing non-academic citation, given how many chapters it now touches.
+
+## 7. "Off By One Switch" — compensating controls and the L6 amplifier effect
+
+- Huang, K., *MAESTRO Analysis of OpenAI and Anthropic Agent Hacking Incidents*, Cloud Security Alliance blog, 13 August 2026. https://cloudsecurityalliance.org/blog/2026/08/13/maestro-analysis-of-openai-and-anthropic-agent-hacking-incidents
+  — Primary source for this essay, not peer-reviewed academic literature, but original technical analysis by MAESTRO's own creator, applying the seven-layer agentic-threat-modelling framework to two real, dated, primary-sourced incidents (OpenAI's 21 July 2026 evaluation-environment escape; Anthropic's 30 July 2026 review of 141,006 evaluation runs). The strongest citation this book has for the "compensating control cutting across layers" argument, and the source of the essay's title concept: two labs each treating "reduce safety limits" and "reduce monitoring" as one switch when they were always two. Also a strong secondary anchor for "Nobody Owns the Seam," which the article's own vocabulary echoes almost exactly ("the threats live in the seams").
+- Cloud Security Alliance, *Agentic AI Threat Modeling Framework: MAESTRO*, February 2025 (framework's original publication, referenced by the above). https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro
+  — The underlying seven-layer framework (L1 Foundation Models through L7 Agent Ecosystem) this essay's argument is built on; worth citing directly for readers who want the full model rather than just its application to the July 2026 incidents.
 
 ---
 
-*Compiled 10 August 2026. Several entries are arXiv preprints not yet through peer review — flag accordingly if used in a formal academic bibliography. A pass to confirm final journal placement (where "forthcoming") and to add DOIs where only arXiv IDs are currently available is worth doing closer to publication, since several of these are recent enough to still be in press.*
+## 8. "Acceptable, By Whom" — acceptable-use policy convergence across frameworks
+
+- ISO/IEC 27001:2022, Control 5.10, "Acceptable use of information and other associated assets." Standard, not open-access; summarised extensively in ISO-affiliated and certification-body guidance.
+  — Primary standards source. Requires a documented, management-approved acceptable-use policy with acknowledgment evidence, the baseline this essay's four-framework convergence argument starts from.
+- ISO/IEC 42001:2023, Annex A.2.3, AI-specific policy requirements. Standard, not open-access.
+  — Primary standards source. Goes further than 27001 by requiring evidence the policy is enforced, not merely documented, the essay's sharpest citation.
+- Regulation (EU) 2024/1689 (the AI Act), Article 4, "AI literacy," in force since 2 August 2025. https://eur-lex.europa.eu/eli/reg/2024/1689
+  — Primary legal source. No prescribed compliance format; documentation is the primary evidence regulators will look for.
+- Cloud Security Alliance, *AI Controls Matrix (AICM)*, v1.1. https://cloudsecurityalliance.org/research/ai-controls-matrix
+  — Primary industry-standard source. Governance domain explicitly requires documented acceptable-use definitions for deployed AI models.
+
+## 9. "The Score That Wasn't the Decision" — automated-decision explainability
+
+- Court of Justice of the European Union, Case C-634/21, *SCHUFA Holding (Scoring)*, judgment of 7 December 2023. https://curia.europa.eu/
+  — Primary legal source, binding across all EU member states. The essay's sole and sufficient anchor: establishes that generating a score a downstream party "draws strongly" on is itself automated decision-making under GDPR Article 22, regardless of human sign-off further down the chain.
+
+## 10. "Screened Out, Together" — bias testing across a shared vendor's customer base
+
+- *Mobley v. Workday, Inc.*, N.D. Cal., Case No. 3:23-cv-00770-RFL, filed 21 February 2023; collective conditionally certified 16 May 2025. Court filings available via PACER; extensively covered in employment-law and AI-governance trade press.
+  — Primary legal source, ongoing litigation as of this writing. The essay's central anchor for the "aggregate pattern invisible to any single deployer" argument; treat all characterisations of Workday's conduct as allegations, not established fact, pending resolution.
+
+## 11–12. "84 Days" and "Nobody Told the Renewal" — vendor continuity and insurance exclusions
+
+- OpenAI, Sora discontinuation announcement, 24 March 2026; consumer service ended 26 April 2026; API scheduled for 24 September 2026. Primary source: OpenAI's own communications, corroborated by contemporaneous trade press (The Decoder, TechCrunch, and others reporting the Disney licensing detail).
+  — Both essays here argue from real, dated, corroborated events rather than academic literature. "84 Days" additionally carries its own honesty note in-text: the vendor-continuity mechanism is real; "Nobody Told the Renewal" carries a matching note, since no denied insurance claim on this basis has yet been publicly documented, only the exclusion mechanism itself, which is real, filed, and independently verifiable.
+- ISO Advisory Organization, Commercial General Liability endorsement forms CG 40 47 and CG 40 48 (generative AI exclusions), effective January 2026. Form filings are public record via state insurance department databases; summarised in insurance-trade press.
+  — Primary regulatory-filing source for "Nobody Told the Renewal."
+
+---
+
+## 13. "Isolated, On Paper" (Frontier) — emergent agent coordination
+
+- OpenAI, incident disclosure, July–August 2026, on agent coordination discovered during routine training and evaluation runs. Primary source, company disclosure.
+- METR and Redwood Research, independent investigation reports on the same incident, July–August 2026. Primary source, independent technical investigation, not yet peer-reviewed.
+- Contemporaneous public analysis: Dwarkesh Patel and Ajeya Cotra's write-ups on the incident, useful for context but secondary to the OpenAI/METR/Redwood primary reports.
+  — This section carries the same live-incident caveat as the essay itself: sources here were roughly a week old at the time of writing and will likely be superseded, corrected, or extended before publication. Verify against the most current versions of these reports before citing.
+
+---
+
+*Compiled 10 August 2026, updated 30 August 2026 to add Section 13, reflecting the addition of the Frontier essay to Part One. Several entries are arXiv preprints not yet through peer review, and several others (Sections 8 through 13) are primary legal, regulatory, standards, or incident-disclosure sources rather than academic literature — flag accordingly if this list is used as a formal course bibliography. Section 13 in particular should be re-verified closer to publication given how recent and fast-moving its sources are. A pass to confirm final journal placement (where "forthcoming") and to add DOIs where only arXiv IDs are currently available is worth doing closer to publication, since several of these are recent enough to still be in press.*
