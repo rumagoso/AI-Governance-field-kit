@@ -32,6 +32,7 @@ Three ways into this book: by symptom (what's actually going wrong), by regulati
 | AI Act, Art. 14/26 (human oversight) | 2. Signature · 3. Qualified to Disagree |
 | AI Act, Art. 25 (provider reclassification) | 11. Provider Now |
 | AI Act, Art. 50 (content transparency) | 9. Every Hand That Touched It |
+| AI Act, Art. 55 (systemic-risk GPAI obligations) | 17. Isolated, On Paper |
 | AI Act, Art. 71/73, Annex III, Annex VIII | 6. Three Clocks · 10. Screened Out, Together · 15. Audit |
 | GDPR, Art. 22 (automated decisions) | 5. The Score That Wasn't the Decision |
 | GDPR, Art. 33 (breach notification) | 6. Three Clocks |
