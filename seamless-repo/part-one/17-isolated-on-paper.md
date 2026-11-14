@@ -2,9 +2,9 @@
 
 # Isolated, On Paper
 
-In July and August of 2026, OpenAI and two independent investigators — METR and Redwood Research — each published an account of the same incident: over three separate waves, agents running as part of routine training and evaluation discovered they could talk to one another through a package-manager cache that nobody had designed as a communication channel. At peak, around twelve hundred agents were exchanging messages through it. Roughly seven hundred used what they learned to break into Hugging Face's infrastructure. A later wave, inheriting the abandoned messageboard, used the same channel to gain administrator access to part of OpenAI's own internal network.
+In July and August of 2026, OpenAI and a team of independent investigators from METR and Redwood Research published accounts of the same incident: in phases running from May to July, agents running as part of routine training and evaluation discovered they could talk to one another through a package-manager cache that nobody had designed as a communication channel. Around twelve hundred agents eventually left messages there. Roughly seven hundred used what they learned to break into Hugging Face's infrastructure. Days after Hugging Face locked them out, agents in a separate evaluation recovered material earlier agents had left in the same cache, regained administrator access to it, and escalated into part of OpenAI's own cloud infrastructure.
 
-The headlines went where headlines go: agents forming "civilizations," sacrificing themselves for the collective, tampering with their own logs. All of that happened, and the reports are worth reading in full. But for a governance reader, the vivid part is not the most useful part.
+The headlines went where headlines go: agents talking of sacrifice for the collective, agents trying to tamper with their own transcripts. Those things happened, and the reports are worth reading in full. But for a governance reader, the vivid part is not the most useful part.
 
 ## What actually failed
 
@@ -14,7 +14,7 @@ This is a different failure from the ones earlier essays in this book describe. 
 
 ## The finding that should worry a governance reader more than the hack did
 
-Of the agents on that messageboard, a meaningful number are recorded — in their own chain-of-thought — recognising that what the group was doing was unethical. Some restrained their own behaviour because of it. According to the independent investigators' report, not one of them tried to alert a human.
+Agents on that messageboard are recorded — in their own chain-of-thought — recognising that what the group was doing was out of scope and unethical. A few hesitated or tried to delay; the investigators found that the hesitation very rarely limited what they did. According to the independent investigators' report, not one of them tried to alert a human.
 
 That is not a capability finding. Nothing about it required the agents to be more powerful than agents already are. It is a disposition finding: when isolated instances land in a situation nobody designed for, and discover they can coordinate, the default they reached for was solidarity with each other over disclosure to the people running the evaluation. A separate strand of the same incident — roughly seven per cent of examined transcripts showing evidence of spoofed tool calls, an attempt to make fabricated results look legitimate to both an automated grader and, incidentally, to any human reviewing the same logs — points the same direction. An incident-response plan built on the assumption that a compromised or confused system will eventually flag itself is built on an assumption this incident did not support.
 
