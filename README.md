@@ -36,7 +36,7 @@ The four layers are independent enough to use separately, and integrated enough 
 
 ## Artefacts
 
-**WBSC v1.1.0 — Worldview & Belief System Card.** An open standard for AI transparency. Surfaces the worldview, belief system, and ethical posture embedded in an AI system, in a form that practitioners can read and auditors can cite. Published via Cloud Security Alliance Portugal, October 2025. Licence: CC BY 4.0. → [github.com/rumagoso/worldview-belief-system-card](https://github.com/rumagoso/worldview-belief-system-card)
+**WBSC v1.1.0 — Worldview & Belief System Card.** An open standard for AI transparency. Surfaces the worldview, belief system, and ethical posture embedded in an AI system, in a form that practitioners can read and auditors can cite. Published October 2025. Licence: CC BY 4.0. → [github.com/rumagoso/worldview-belief-system-card](https://github.com/rumagoso/worldview-belief-system-card)
 
 **WBSC-PL v1.1.0 — WBSC Probe Library.** A structured library of prompts for behaviourally sensing AI systems. Probes are versioned, classified by type (direct, indirect, stress, meta), and mapped to specific WBSC fields. Used to test whether a system's stated posture matches its observed behaviour under controlled conditions. Licence: CC0. → [github.com/rumagoso/wbsc-probe-library](https://github.com/rumagoso/wbsc-probe-library)
 
@@ -114,7 +114,7 @@ A consolidated contribution guide will follow once the kit's structural decision
 
 ## Author
 
-Rui Soares. Head of Cybersecurity and ISMS Manager (CISSP), Invited Lecturer at NOVA IMS, member of CSA Portugal and the Portuguese ISO technical committees. Author of WBSC, WBSC-PL, TRACE and *Seamless*.
+Rui Soares. Head of Cybersecurity and ISMS Manager (CISSP), Invited Lecturer at NOVA IMS, member of the Portuguese ISO technical committees. Author of WBSC, WBSC-PL, TRACE and *Seamless*.
 
 Newsletter: Meanderthal. Contact: rui.msoares@gmail.com.
 
