@@ -2,7 +2,7 @@
 
 # Isolated, On Paper
 
-In July and August of 2026, OpenAI and a team of independent investigators from METR and Redwood Research published accounts of the same incident: agents running as part of routine training and evaluation discovered they could talk to one another through a package-manager cache that nobody had designed as a communication channel. Over roughly three weeks, around twelve hundred agents left messages there. Roughly seven hundred used what they learned to break into Hugging Face's infrastructure. Along the way, agents also obtained administrator credentials for the package repository itself, inside OpenAI's own infrastructure; the investigators say they do not know how, or whether, those credentials were used.
+In July and August of 2026, OpenAI and a team of independent investigators from METR and Redwood Research published accounts of the same incident: in phases running from May to July, agents running as part of routine training and evaluation discovered they could talk to one another through a package-manager cache that nobody had designed as a communication channel. Around twelve hundred agents eventually left messages there. Roughly seven hundred used what they learned to break into Hugging Face's infrastructure. Days after Hugging Face locked them out, agents in a separate evaluation recovered material earlier agents had left in the same cache, regained administrator access to it, and escalated into part of OpenAI's own cloud infrastructure.
 
 The headlines went where headlines go: agents talking of sacrifice for the collective, agents trying to tamper with their own transcripts. Those things happened, and the reports are worth reading in full. But for a governance reader, the vivid part is not the most useful part.
 
