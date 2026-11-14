@@ -22,7 +22,8 @@ Three ways into this book: by symptom (what's actually going wrong), by regulati
 | You suspect there are AI tools in use that nobody's counted | 14. The Ghost in the Estate | Ch.14 Finding the Ghosts |
 | You need to prove your AI inventory is real, not just on paper | 15. Passing the Audit You Haven't Been Given Yet | Its own embedded AI Inventory Template *(see note)* |
 | You're about to disable a safety control for a good reason | 16. Off By One Switch | Ch.15 Switch Map |
-| Every control passed and something still went wrong | 17. The System That Passed Every Test | Ch.16 Reading the System |
+| Two of your own systems share a resource nobody ever checked for what else it could carry | 17. Isolated, On Paper | Ch.16 Naming What You Haven't Checked |
+| Every control passed and something still went wrong | 18. The System That Passed Every Test | Ch.17 Reading the System |
 
 ## By regulation — start here if you're solving for a specific requirement
 
@@ -40,12 +41,12 @@ Three ways into this book: by symptom (what's actually going wrong), by regulati
 | DORA | 6. Three Clocks |
 | ISO 27001 | 4. Acceptable, By Whom · 14. Ghost in the Estate |
 | ISO 42001 | 4. Acceptable, By Whom · 15. Audit |
-| CSA AICM / MAESTRO | 4. Acceptable, By Whom · 8. Seam · 16. Off By One Switch |
+| CSA AICM / MAESTRO | 4. Acceptable, By Whom · 8. Seam · 16. Off By One Switch · 17. Isolated, On Paper |
 | NIST AI RMF, US EO 13960/OMB | 15. Audit |
 | US ADEA / disparate-impact law | 10. Screened Out, Together |
 | General commercial insurance (ISO CGL forms) | 13. Nobody Told the Renewal |
 
-## By family — how the seventeen relate to each other
+## By family — how the eighteen relate to each other
 
 ```mermaid
 flowchart TD
@@ -75,20 +76,27 @@ flowchart TD
     E11 -.sibling.-> E12
     E12 -.sibling.-> E13
 
-    ROOT --> F5["Coverage and evidence"]
+    ROOT --> F5["Coverage and evidence<br/>do you know what you have, and is it still true"]
     F5 --> E14["14. The Ghost in the Estate"]
     F5 --> E15["15. Passing the Audit"]
+    F5 --> E16["16. Off By One Switch"]
     E14 -.distinguishes itself from.-> E15
 
-    ROOT --> F6["Bridge and close"]
-    F6 --> E16["16. Off By One Switch"]
-    F6 --> E17["17. The System That Passed Every Test"]
-    E16 -.live demo of.-> E17
+    ROOT --> F6["Frontier — still moving"]
+    F6 --> E17["17. Isolated, On Paper"]
+    E16 -.escalates to.-> E17
+
+    ROOT --> F7["Capstone"]
+    F7 --> E18["18. The System That Passed Every Test"]
+    E17 -.sets up.-> E18
 
     style ROOT fill:#1A1A1A,color:#F4F1EA
-    style E17 fill:#B5342E,color:#F4F1EA
+    style E17 fill:#C98A2C,color:#F4F1EA
+    style E18 fill:#B5342E,color:#F4F1EA
 ```
 
-The red node is deliberate: the capstone is where all sixteen prior essays are shown to be one essay, asked seventeen times. Everything on this page exists to get you to the right chapter fast. The book itself exists to make you notice, eventually, that you needed all of them.
+The red node is deliberate: the capstone is where all seventeen prior essays are shown to be one essay, asked eighteen times. The amber node is deliberate too, in the opposite direction: Frontier doesn't get folded into a tidy family of its own kind, because the incident it describes hadn't finished happening when this book went to print. Everything on this page exists to get you to the right chapter fast. The book itself exists to make you notice, eventually, that you needed all of them.
 
 *Note on essay 15: every other essay pairs with exactly one numbered Part Two chapter. Audit is the one exception, on purpose, not by omission. Its companion is a single cross-regime table (AI Act, GDPR, NIST AI RMF, ISO 42001, US federal requirements, mapped field by field), and splitting that table into a chapter-sized fragment would have made it less usable, not more. It's every bit as usable as the sixteen numbered chapters. It just doesn't have a number.*
+
+*Note on essay 17: Frontier is the one section in this book without a settled ending. "Isolated, On Paper" anchors to an incident roughly a week old at the time of writing — read the argument (what a shared, unaudited resource can carry between two systems that were never meant to talk) rather than the specifics, which is the part built to last. Its companion chapter asks you to audit the mechanism in your own infrastructure, not to relitigate this particular case. Expect this essay to need a revision pass before the book ships — not because it's wrong, but because the story underneath it is still moving.*
