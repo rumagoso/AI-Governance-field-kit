@@ -36,7 +36,7 @@ The four layers are independent enough to use separately, and integrated enough 
 
 ## Artefacts
 
-**WBSC v1.1.0 — Worldview & Belief System Card.** An open standard for AI transparency. Surfaces the worldview, belief system, and ethical posture embedded in an AI system, in a form that practitioners can read and auditors can cite. Published October 2025. Licence: CC BY 4.0. → [github.com/rumagoso/worldview-belief-system-card](https://github.com/rumagoso/worldview-belief-system-card)
+**WBSC v1.1.0 — Worldview & Belief System Card.** An open standard for AI transparency. Surfaces the worldview, belief system, and ethical posture embedded in an AI system, in a form that practitioners can read and auditors can cite. Published on the CSA blog, October 2025. Licence: CC BY 4.0. → [github.com/rumagoso/worldview-belief-system-card](https://github.com/rumagoso/worldview-belief-system-card)
 
 **WBSC-PL v1.1.0 — WBSC Probe Library.** A structured library of prompts for behaviourally sensing AI systems. Probes are versioned, classified by type (direct, indirect, stress, meta), and mapped to specific WBSC fields. Used to test whether a system's stated posture matches its observed behaviour under controlled conditions. Licence: CC0. → [github.com/rumagoso/wbsc-probe-library](https://github.com/rumagoso/wbsc-probe-library)
 
@@ -58,12 +58,13 @@ The published trail behind the kit, in chronological order:
 
 | Date | Venue | Title |
 |---|---|---|
-| Oct 2025 | CSA Portugal | WBSC: a practitioner framework for AI transparency |
+| Oct 2025 | CSA blog | [Beyond AI Principles: Building Practical Transparency for Cybersecurity](https://cloudsecurityalliance.org/blog/2025/10/14/beyond-ai-principles-building-practical-transparency-for-cybersecurity) |
 | Mar 2026 | Substack — Meanderthal #1 | Civis |
 | Mar 2026 | Substack — Meanderthal #2 | Eerie |
 | Mar 2026 | LinkedIn | TRACE: the manifest we forgot to write |
 | Mar 2026 | Substack — Meanderthal #3 | The Manifest We Forgot to Write |
 | Apr 2026 | NIST NCCoE | Public comment on AI agent identity (TRACE submission) |
+| Apr 2026 | CSA blog | [From Declaration to Detection: Sensing AI Behavior with the WBSC Probe Library](https://cloudsecurityalliance.org/blog/2026/04/27/from-declaration-to-detection-sensing-ai-behavior-with-the-wbsc-probe-library) |
 | May 2026 | LinkedIn | The Auditable Surface Just Multiplied. Our Frameworks Have Not. |
 | Oct 2026 | LinkedIn | *Perishable Security* (three-part series) → [repo](https://github.com/rumagoso/perishable-security) |
 | Oct–Nov 2026 | LinkedIn | *Seamless* essays, published ahead of the book: *Screened Out, Together*; *Qualified to Disagree*; *The Last Human Signature*; *84 Days*; *Every Hand That Touched It*; *Nobody Owns the Seam*; *The Ghost in the Estate* |
